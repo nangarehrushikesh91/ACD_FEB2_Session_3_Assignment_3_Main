@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ACD_FEB2_Session_3_Assignment_3_Main</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+	.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #555555;
+	border-radius: 25px;
+	width:160px;
+	height: 45px;
+    margin-left: 130px;
+	}
+  </style>
+</head>
+<body>
+<div class="container" style="background-image: url('background_image.jpg');width: 450px;">
+	<br/>
+		<p><font color="white"><b>Step 1 : Your details</b></font></p>
+		<div style="background-color: rgba(255, 255, 255, 0.9);height: 60px;border-radius: 10px;">
+			<form class="form-inline">
+			  <div class="form-group" style="margin-top: 15px;">
+				<label style="margin-left: 10px;">Name</label>
+				<input type="text" class="form-control" placeholder="first and last name" style="margin-left: 60px;width: 230px;">
+			  </div>
+			</form>
+		</div>
+		</br>
+		<div style="background-color: rgba(255, 255, 255, 0.9);height: 60px;border-radius: 10px;">
+			<form class="form-inline">
+			  <div class="form-group" style="margin-top: 15px;">
+				<label style="margin-left: 10px;">Email</label>
+				<input type="text" class="form-control" placeholder="example@domail.com" style="margin-left: 60px;width: 230px;">
+			  </div>
+			</form>
+		</div>
+		</br>
+		<div style="background-color: rgba(255, 255, 255, 0.9);height: 60px;border-radius: 10px;">
+			<form class="form-inline">
+			  <div class="form-group" style="margin-top: 15px;">
+				<label style="margin-left: 10px;">Phone</label>
+				<input type="text" class="form-control" placeholder="eg. +44750000000000" style="margin-left: 50px;width: 230px;">
+			  </div>
+			</form>
+		</div>
+		</br>
+		
+		<p><font color="white"><b>Step 1 : Delivery address</b></font></p>
+		<div style="background-color: rgba(255, 255, 255, 0.9);height: 140px;border-radius: 10px;">
+			<label style="margin-left: 10px;margin-top: 10px;">Address</label>
+			<textarea class="form-control" rows="5" style="margin-left: 110px;width: 230px;margin-top: -20px;"></textarea>
+		</div>
+		</br>
+		<div style="background-color: rgba(255, 255, 255, 0.9);height: 60px;border-radius: 10px;">
+			<form class="form-inline">
+			  <div class="form-group" style="margin-top: 15px;">
+				<label style="margin-left: 10px;">Pin code</label>
+				<input type="text" class="form-control" style="margin-left: 37px;width: 230px;">
+			  </div>
+			</form>
+		</div>
+		</br>
+		<div style="background-color: rgba(255, 255, 255, 0.9);height: 60px;border-radius: 10px;">
+			<form class="form-inline">
+			  <div class="form-group" style="margin-top: 15px;">
+				<label style="margin-left: 10px;">Country</label>
+				<input type="text" class="form-control" style="margin-left: 43px;width: 230px;">
+			  </div>
+			</form>
+		</div>
+		</br>
+		
+		<p><font color="white"><b>Step 1 : Card details</b></font></p>
+		<div style="background-color: rgba(255, 255, 255, 0.9);height: 90px;border-radius: 10px;">
+			<div style="margin-left: 40px;">
+			<label style="margin-left: -30px;margin-top: 10px;">Card type</label>
+			<br/>
+			<label class="radio-inline">
+			  <input type="radio" name="optradio"><img src="visa.png" style="width: 24px;"/> VISA
+			</label>
+			<label class="radio-inline">
+			  <input type="radio" name="optradio"><img src="amex.jpg" style="width: 24px;"/> AmEx
+			</label>
+			<label class="radio-inline">
+			  <input type="radio" name="optradio"><img src="mastercard.png" style="width: 24px;"/> Mastercard
+			</label>
+			
+			</div>
+				
+		</div>
+		</br>
+		<div style="background-color: rgba(255, 255, 255, 0.9);height: 60px;border-radius: 10px;">
+			<form class="form-inline">
+			  <div class="form-group" style="margin-top: 15px;">
+				<label style="margin-left: 10px;">Card number</label>
+				<input type="text" class="form-control" style="margin-left: 15px;width: 230px;">
+			  </div>
+			</form>
+		</div>
+		</br>
+		<div style="background-color: rgba(255, 255, 255, 0.9);height: 60px;border-radius: 10px;">
+			<form class="form-inline">
+			  <div class="form-group" style="margin-top: 15px;">
+				<label style="margin-left: 10px;">Security code</label>
+				<input type="text" class="form-control" style="margin-left: 10px;width: 230px;">
+			  </div>
+			</form>
+		</div>
+		<br/>
+		<div style="background-color: rgba(255, 255, 255, 0.9);height: 60px;border-radius: 10px;">
+			<form class="form-inline">
+			  <div class="form-group" style="margin-top: 15px;">
+				<label style="margin-left: 10px;">Name on card</label>
+				<input type="text" class="form-control" placeholder="exact name as on the card" style="margin-left: 10px;width: 230px;">
+			  </div>
+			</form>
+		</div>
+		<br/>
+		<button class="button">BUY IT!</button>
+		
+		<br/><br/>
+	
+</div>
+</body>
+</html>
